@@ -1,0 +1,71 @@
+.cartList {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 1rem;  
+}
+
+.total-cart-item {
+    border-bottom: 1px solid hsl(7, 20%, 60%);
+    color: hsl(14, 65%, 9%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.cart-item {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.item-price-details {
+    display: flex;
+    gap: 1rem;
+}
+.item-prices {
+    display: flex;
+    gap: .5rem;
+}
+.delete-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1rem;
+    width: 1rem;
+    padding: 3px;
+    border: 1px solid hsl(14, 65%, 9%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.price {
+    color: hsl(7, 20%, 60%);
+}
+.total-amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: hsl(14, 65%, 9%);
+}
+.carbon-neutral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: hsl(14, 65%, 9%);
+    font-size: small;
+    background-color: hsl(13, 31%, 94%);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.submit-button {
+    background-color: hsl(14, 86%, 42%);
+    padding: 1rem;
+    border-radius: 3rem;
+    border: none;
+    color: hsl(20, 50%, 98%);
+    font-size: 1rem;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: hsl(14, 70%, 38%);
+}

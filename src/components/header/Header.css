@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: hsl(13, 31%, 94%);
+  padding: 10px 0;
+}
+#header {
+  color: hsl(14, 65%, 9%);
+}
+a {
+  text-decoration: none;
+}
+.dropdown {
+  display: none;
+}
+@media screen and (max-width: 650px) {
+  .dropdown {
+    display: block;
+    height: 4rem;
+    cursor: pointer;
+  }
+  .dropdown:hover {
+    border: 2px solid hsl(14, 86%, 42%);
+    border-radius: 1rem;
+  }
+}

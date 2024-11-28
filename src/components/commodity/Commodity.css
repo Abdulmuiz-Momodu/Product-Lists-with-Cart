@@ -1,0 +1,102 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#productImage {
+  border-radius: 15px;
+}
+.img-true {
+    border: 2px solid hsl(14, 86%, 42%);
+}
+.button-holder {
+    display: flex;
+    justify-content: center;
+    margin-top: -2.5rem;
+    height: 3rem;
+}
+.false {
+    border: none;
+    background: none;
+}
+.false div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 7px;
+    border-radius: 2rem;
+    border: 1px solid #260f08;
+    background: hsl(20, 50%, 98%);
+    font-weight: 700;
+    width: 10rem;
+    height: 2.6rem;
+    color: hsl(14, 65%, 9%);
+}
+.true {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 7px;
+    background-color: hsl(14, 86%, 42%);
+    border-radius: 2rem;
+    border: 1px solid hsl(14, 86%, 42%);
+    font-weight: 700;
+    width: 10rem;
+    height: 2.6rem;
+    color: hsl(20, 50%, 98%);
+}
+.add-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsl(20, 50%, 98%);
+    border-radius: 50%;
+    background: none;
+    padding: 2px;
+    cursor: pointer;
+}
+.remove-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsl(20, 50%, 98%);
+    border-radius: 50%;
+    background: none;
+    padding: 2px;
+    cursor: pointer;
+}
+.remove-button-image {
+    height: 10px;
+    width: 10px;
+}
+.add-button-image {
+    height: 10px;
+    width: 10px;
+}
+.false div:hover {
+    cursor: pointer;
+    border: 1px solid hsl(14, 86%, 42%);
+    color: hsl(14, 86%, 42%);
+}
+h5 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.product-price {
+    color: hsl(14, 86%, 42%);
+    font-weight: 700;
+}
+.product-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.product-name {
+    font-size: 14px;
+    color: hsl(7, 20%, 60%);
+}
+.counter {
+    background-color: hsl(14, 86%, 42%);
+}

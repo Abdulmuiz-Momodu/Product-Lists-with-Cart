@@ -53,7 +53,7 @@ export default function Modal({ modal, setModal }) {
             {cart.map((item) => (
               // console.log(item.productImage),
               <div key={item.id} className="product-item">
-                <img src={item.productImage} alt={`${item.name}-image`} />
+                {/* <img src={item.productImage} alt={`${item.name}-image`} /> */}
                 <h4>{item.name}</h4>
                 <div className="product-price-details">
                   <p style={{ color: "hsl(14, 86%, 42%)", fontWeight: "900" }}>

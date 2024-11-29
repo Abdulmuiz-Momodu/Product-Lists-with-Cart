@@ -3,12 +3,12 @@ import Header from '../header/Header'
 import Section from '../section/Section'
 import './Hero.css'
 
-export default function Hero({handleClick, toggle}) {
+export default function Hero({handleClick}) {
   return (
     <div className="hero">
 
         <Header/>
-        <Section handleClick={handleClick} toggle={toggle}/>
+        <Section/>
     </div>
 )
   

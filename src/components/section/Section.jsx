@@ -70,7 +70,7 @@ export const data = [
 
 ];
 
-export default function Section({handleClick, toggle}) {
+export default function Section() {
   return (
     <div className="section">
       {data.map((item, id) => (
@@ -82,9 +82,6 @@ export default function Section({handleClick, toggle}) {
           productPrice={item.productPrice}
           productQuantity={item.productQuantity}
           itm={id}
-          handleClick={handleClick}
-          toggle={toggle}
-
         />
       ))}
     </div>
